@@ -1,10 +1,3 @@
-# pip install Flask
-# pip install Flask-JWT-Extended
-# pip install Flask-Bcrypt
-# pip install Flask-PyMongo
-# pip install pymongo
-# pip install python-dotenv
-
 from flask import Flask, request, jsonify
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
 from flask_bcrypt import Bcrypt
